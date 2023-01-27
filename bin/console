@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+
+require 'irb'
+require_relative '../lib/expect'
+require_relative '../lib/test_framework'
+include Expect
+include Test
+IRB.start
