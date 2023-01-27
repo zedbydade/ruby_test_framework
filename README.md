@@ -1,11 +1,11 @@
 # Rspec Killer
 
 ```ruby
-  TestFramework.it('sum 4 + 4') do
-    to_be(8, 4)
+  TestFramework.describe('Add numbers') do
+    TestFramework.it('Should add 3 to 3') do
+      Expect.to_be(1 + 2, 3)
+    end
   end
 
-  TestFramework.it('sum 4 + 4') do
-    to_be(8, 8)
-  end
+  TestFramework.show_result
 ```
